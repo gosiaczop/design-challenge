@@ -1,3 +1,107 @@
-.exampleClass {
-    background-color: yellow;
+.App {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  top: 40px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 41px;
+  color: #333333;
+}
+h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 40px;
+
+  color: #333333;
+}
+.form-field {
+  width: 300px;
+  height: 50px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  background: #fafafa;
+  border: 2px solid #468fee;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.submit {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  width: 85px;
+  height: 39px;
+  left: 615px;
+  top: 1194px;
+  background: #468fee;
+  border: 2px solid #468fee;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 6px rgba(51, 51, 51, 0.3);
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+.cancel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  width: 88px;
+  height: 39px;
+  left: 740px;
+  top: 1194px;
+
+  background: #999999;
+  border: 2px solid #999999;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 6px rgba(51, 51, 51, 0.3);
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+.long {
+  width: 640px;
+  height: 50px;
+  left: 400px;
+  top: 571px;
+  background: #fafafa;
+  border: 2px solid #468fee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-left: 38px;
+}
+.form-fieldfile{
+  width: 300px;
+  height: 210px;
+  left: 400px;
+  top: 571px;
+  background: #fafafa;
+  border: 2px solid #468fee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-left: 38px;
 }
