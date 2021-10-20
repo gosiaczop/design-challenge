@@ -1,10 +1,8 @@
-import React from 'react';
-import styles from './ApplicationForm.module.css';
+import { StrictMode } from "react";
+import "./styles.css";
 
-interface Props {}
-
-export const ApplicationForm = (props: Props) => (
-    <div className={styles.exampleClass}>
+export default function JobForm() {
+  return (
     <div class="form-container">
       <form class="register-form">
         <input
@@ -90,5 +88,6 @@ export const ApplicationForm = (props: Props) => (
           CANCEL
         </button>
       </form>
-     </div>
-);
+    </div>
+  );
+}
