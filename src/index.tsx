@@ -1,7 +1,6 @@
-import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import logo from "./logo.png";
-import JobForm from "./jobform.js";
+import JobForm from "./jobform";
 import "./styles.css";
 
 function App() {
